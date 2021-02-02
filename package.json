@@ -1,15 +1,15 @@
 {
-  "name": "sdrtotallyoriginalchatapp",
+  "name": "a4_21_nodeandnpm",
   "version": "1.0.0",
   "description": "a fun (in theory) node build",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "startdev": "nodemon app",
+    "startdev": "nodemon app & browser-sync start --proxy 'localhost:5050' --files 'index.html' 'public'",
     "browsersync": "browser-sync start --proxy 'localhost:5050' --files 'index.html' 'public'",
     "start": "node app"
   },
   "keywords": [],
-  "author": "ELN",
+  "author": "Sandro",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
