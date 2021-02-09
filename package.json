@@ -9,7 +9,7 @@
     "start": "node app"
   },
   "keywords": [],
-  "author": "ELN",
+  "author": "SDR",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
