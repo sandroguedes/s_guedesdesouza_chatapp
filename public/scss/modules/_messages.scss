@@ -50,17 +50,17 @@
             }
         }
         &::-webkit-scrollbar-track{
-            background:rgba(255, 255, 255, 0);
+            background:none;
         }
         &::-webkit-scrollbar{
-            width:10px;
+            width:7px;
         }
         &::-webkit-scrollbar-thumb{
             border-radius:10px;
-            background:#5b6bcd;
+            background:rgba(255, 255, 255, 0.5);
         }
         &::-webkit-scrollbar-thumb:hover{
-            background:#596fff;
+            background:rgba(255, 255, 255, 0.9);
         }
         .Sender{
             font-weight:lighter;

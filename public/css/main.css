@@ -206,17 +206,17 @@ body {
   text-align: right;
 }
 .chatApp .messages::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0);
+  background: none;
 }
 .chatApp .messages::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 .chatApp .messages::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #5b6bcd;
+  background: rgba(255, 255, 255, 0.5);
 }
 .chatApp .messages::-webkit-scrollbar-thumb:hover {
-  background: #596fff;
+  background: rgba(255, 255, 255, 0.9);
 }
 .chatApp .messages .Sender {
   font-weight: lighter;
