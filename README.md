@@ -1,11 +1,11 @@
 # AWESOME CHAT
 A chat app built with socket.io and vue.js and styled with modular scss & sass compiler.
 
-##Install
+## Install
 No installation needed. Just launch a local server and access it through ports 5050 or 3000. To fully test the chat function, you may also access both ports at once from different viewports (if you use the same port on both it bugs out and duplicates the messages).
 
 
-##MIT License
+## MIT License
 
 Copyright (c) 2021 Sandro Guedes
 
