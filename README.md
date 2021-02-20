@@ -1,4 +1,7 @@
+![LOGO](http://sgs-design.com/temp/imgs/Awesome.png)
+
 # AWESOME CHAT
+
 A chat app built with socket.io and vue.js and styled with modular scss & sass compiler.
 
 ## Install
