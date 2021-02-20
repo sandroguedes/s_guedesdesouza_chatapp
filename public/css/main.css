@@ -63,6 +63,13 @@ body {
   justify-content: center;
   margin: 0 auto;
 }
+.loginWrapper .text_description {
+  text-justify: inter-word;
+  max-width: 440px;
+  margin: 35px;
+  line-height: 30px;
+  font-size: 0.9em;
+}
 .loginWrapper .login {
   display: flex;
   flex-direction: column;
@@ -109,13 +116,6 @@ body {
 }
 .loginWrapper .login .button:hover {
   background: #6927ac;
-}
-.loginWrapper .text_description {
-  text-justify: inter-word;
-  max-width: 440px;
-  margin: 35px;
-  line-height: 30px;
-  font-size: 0.9em;
 }
 
 .chatApp {

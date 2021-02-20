@@ -5,6 +5,13 @@
     align-items:center;
     justify-content:center;
     margin:0 auto;
+    .text_description {
+        text-justify:inter-word;
+        max-width: 440px;
+        margin: 35px;
+        line-height: 30px;
+        font-size:.9em;
+    }
     .login{
         display:flex;
         flex-direction:column;
@@ -51,12 +58,5 @@
                 background:rgb(105, 39, 172);
             }
         }
-    }
-    .text_description {
-        text-justify:inter-word;
-        max-width: 440px;
-        margin: 35px;
-        line-height: 30px;
-        font-size:.9em;
     }
 }
