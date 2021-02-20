@@ -1,8 +1,12 @@
 export default {
-    props: ['msg'],
-    template:
+    props: ['message'],
 
+    template: `
     <article>
-        <h3>This is a message</h3>
+        <h3 class="Sender">
+            <span>{{message.message.name}}</span> says
+        </h3>
+        <p class="onScreenMessage">{{message.message.content}}</p>
     </article>
+    `
 }
