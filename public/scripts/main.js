@@ -11,7 +11,7 @@ import ChatMessage from "./components/TheMessageComponent.js"
 
     function appendMessage(message) {
         console.log(vm);
-        vm.messages.push(message);;
+        vm.messages.push(message);
         vm.$refs.notification_sound.play();
     }
 
@@ -32,7 +32,8 @@ import ChatMessage from "./components/TheMessageComponent.js"
                 vm.$refs.boot_sound.play();
             },
             dispatchMessage() {
-                socket.emit('ChatMESSAGE', { content: this.message, name: this.nickname || "Anonymous" });
+                socket.emit('chatmessage', { content: this.message, name: this.nickname || "Anonymous" });
+                this.message="";
             }
         },
         components: {
