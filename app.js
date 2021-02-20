@@ -16,13 +16,13 @@ app.get("/", (req, res) => {
 messenger.attach(server);
 
 messenger.on('connection', (socket) => {
-    console.log(`1 user CONNECTED: ${socket.id}`);
-    socket.emit('CONNECTED', { socketID: `${socket.id}`, message: 'a new CONNECTION has been detected' });
-    socket.on('ChatMESSAGE', function(message) {
+    console.log(`1 user connected: ${socket.id}`);
+    socket.emit('connected', { socketID: `${socket.id}`, message: 'a new connection has been detected' });
+    socket.on('chatmessage', function(message) {
         console.log(message);
-        messenger.emit('MESSAGE', { id: socket.id, message: message })
+        messenger.emit('message', { id: socket.id, message: message })
     });
     socket.on("disconnect", () => {
-        console.log("1 USER has just DISCONNECTED");
+        console.log("1 USER has just disconnected");
     })
 });

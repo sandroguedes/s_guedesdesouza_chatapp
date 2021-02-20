@@ -19,7 +19,7 @@
         </audio>
 
         <!-- MESSAGES -->
-        <section class="chatApp" v-if="joined">
+        <section class="chatApp" v-if="inTheChat">
             <div class="close">
                 <img class="msg_Logo" src="/images/LOGO_THICC.svg" alt="logo" onclick="history.go(0)">
             </div>
@@ -48,7 +48,7 @@
             <div class="login">
                 <h2 class="login_title">How would you like to be addressed?</h2>
                 <input class="user_name" v-model="nickname" type="text">
-                <button @click="joinChat" class="button">CHAT WITH US!</button>
+                <button @click="joinTheChat" class="button">CHAT WITH US!</button>
             </div>
         </section>
     </main>

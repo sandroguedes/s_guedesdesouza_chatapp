@@ -107,15 +107,15 @@ body {
   font-size: 1.3em;
   font-weight: bold;
   width: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 30px;
   font-family: sans-serif;
   color: white;
-  background: #009abd;
+  background: #00b4b4;
   transition: 0.15s;
 }
 .loginWrapper .login .button:hover {
-  background: #6927ac;
+  background: #782d82;
 }
 
 .chatApp {
@@ -147,11 +147,11 @@ body {
   font-size: 1rem;
   width: 120px;
   border: none;
-  color: #fff;
-  background: #18a4c4;
+  color: white;
+  background: #00b4b4;
 }
 .chatApp .messageWrapper .button:hover {
-  background: #0a55ac;
+  background: #782d82;
 }
 
 .chatApp .close {
@@ -179,7 +179,7 @@ body {
   overflow-x: hidden;
   width: 90vw;
   margin: 20px auto -5px auto;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -188,7 +188,7 @@ body {
   max-width: 50%;
   border-radius: 0.4rem;
   margin: 20px auto 20px 20px;
-  background: #3592d0;
+  background: #2878c8;
 }
 .chatApp .messages .messageReceived h3 {
   text-align: right;
@@ -199,7 +199,7 @@ body {
   overflow-wrap: break-word;
 }
 .chatApp .messages .messageSent {
-  background: #5b6bcd;
+  background: #5a46a0;
   margin: 20px 20px 20px auto;
 }
 .chatApp .messages .messageSent h3 {

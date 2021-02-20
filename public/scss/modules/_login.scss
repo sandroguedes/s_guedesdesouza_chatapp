@@ -48,14 +48,14 @@
             font-size:1.3em;
             font-weight:bold;
             width: 50%;
-            border:1px solid rgba(255, 255, 255, 0.3);
+            border:3px solid rgba(255, 255, 255, 0.4);
             border-radius:30px;
             font-family:sans-serif;
             color:white;
-            background:rgb(0, 154, 189);
+            background:$chatCYAN;
             transition:0.15s;
             &:hover{
-                background:rgb(105, 39, 172);
+                background:$chatPURPLE;
             }
         }
     }
